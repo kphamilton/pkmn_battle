@@ -1,0 +1,1 @@
+<script src="includes/js/pkmn_config.js"></script>

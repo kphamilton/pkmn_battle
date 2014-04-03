@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: khamilton
- * Date: 4/2/14
- * Time: 4:06 PM
- */
 
 $mr_mime = array(
     'name' => 'Mr. Mime',
@@ -22,32 +16,32 @@ $mr_mime = array(
                 'STAB' => TRUE,
             ),
         'Safeguard' =>
-        array(
-            'name' => 'Safeguard',
-            'type' => 'normal',
-            'power' => 0,
-            'accuracy' => 100,
-            'description' => 'It protects the user’s party from all status problems for five turns.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Safeguard',
+                'type' => 'normal',
+                'power' => 0,
+                'accuracy' => 100,
+                'description' => 'It protects the user’s party from all status problems for five turns.',
+                'STAB' => FALSE,
+            ),
         "Thunderbolt" =>
-        array(
-            'name' => 'Thunderbolt',
-            'type' => 'electric',
-            'power' => 90,
-            'accuracy' => 100,
-            'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Thunderbolt',
+                'type' => 'electric',
+                'power' => 90,
+                'accuracy' => 100,
+                'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
+                'STAB' => FALSE,
+            ),
         "Shadow Ball" =>
-        array(
-            'name' => 'Shadow Ball',
-            'type' => 'Ghost',
-            'power' => 80,
-            'accuracy' => 100,
-            'description' => 'A shadowy blob is hurled at the foe. May also lower the foe’s SP. DEF.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Shadow Ball',
+                'type' => 'Ghost',
+                'power' => 80,
+                'accuracy' => 100,
+                'description' => 'A shadowy blob is hurled at the foe. May also lower the foe’s SP. DEF.',
+                'STAB' => FALSE,
+            ),
     ),
     'HP' => 138,
     'Attack' => 55,
@@ -64,41 +58,41 @@ $electabuzz = array(
     ),
     'attacks' => array(
         "Psychic" =>
-        array(
-            'name' => 'Psychic',
-            'type' => 'psychic',
-            'power' => 90,
-            'accuracy' => 100,
-            'description' => 'A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Psychic',
+                'type' => 'psychic',
+                'power' => 90,
+                'accuracy' => 100,
+                'description' => 'A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.',
+                'STAB' => FALSE,
+            ),
         "Thunderwave" =>
-        array(
-            'name' => 'Thunderwave',
-            'type' => 'electric',
-            'power' => 0,
-            'accuracy' => 100,
-            'description' => 'A weak electric shock that is sure to cause paralysis if it hits.',
-            'STAB' => TRUE,
-        ),
+            array(
+                'name' => 'Thunderwave',
+                'type' => 'electric',
+                'power' => 0,
+                'accuracy' => 100,
+                'description' => 'A weak electric shock that is sure to cause paralysis if it hits.',
+                'STAB' => TRUE,
+            ),
         "Thunderbolt" =>
-        array(
-            'name' => 'Thunderbolt',
-            'type' => 'electric',
-            'power' => 90,
-            'accuracy' => 100,
-            'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
-            'STAB' => TRUE,
-        ),
+            array(
+                'name' => 'Thunderbolt',
+                'type' => 'electric',
+                'power' => 90,
+                'accuracy' => 100,
+                'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
+                'STAB' => TRUE,
+            ),
         "Hidden Power" =>
-        array(
-            'name' => 'Hidden Power',
-            'type' => 'flying',
-            'power' => 60,
-            'accuracy' => 100,
-            'description' => 'An attack that varies in type and intensity depending on the user.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Hidden Power',
+                'type' => 'flying',
+                'power' => 60,
+                'accuracy' => 100,
+                'description' => 'An attack that varies in type and intensity depending on the user.',
+                'STAB' => FALSE,
+            ),
     ),
     'HP' => 140,
     'Attack' => 115,
@@ -115,41 +109,41 @@ $kangaskhan = array(
     ),
     'attacks' => array(
         "Hyper Beam" =>
-        array(
-            'name' => 'Hyper Beam',
-            'type' => 'normal',
-            'power' => 150,
-            'accuracy' => 90,
-            'description' => 'A severely damaging attack that makes the user rest on the next turn.',
-            'STAB' => TRUE,
-        ),
+            array(
+                'name' => 'Hyper Beam',
+                'type' => 'normal',
+                'power' => 150,
+                'accuracy' => 90,
+                'description' => 'A severely damaging attack that makes the user rest on the next turn.',
+                'STAB' => TRUE,
+            ),
         "Body Slam" =>
-        array(
-            'name' => 'Body Slam',
-            'type' => 'normal',
-            'power' => 85,
-            'accuracy' => 100,
-            'description' => 'The user drops its full body on the foe. It may leave the foe paralyzed.',
-            'STAB' => TRUE,
-        ),
+            array(
+                'name' => 'Body Slam',
+                'type' => 'normal',
+                'power' => 85,
+                'accuracy' => 100,
+                'description' => 'The user drops its full body on the foe. It may leave the foe paralyzed.',
+                'STAB' => TRUE,
+            ),
         "Brick Break" =>
-        array(
-            'name' => 'Brick Break',
-            'type' => 'fighting',
-            'power' => 75,
-            'accuracy' => 100,
-            'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
-            'STAB' => FALSE,
-        ),
+            array(
+                'name' => 'Brick Break',
+                'type' => 'fighting',
+                'power' => 75,
+                'accuracy' => 100,
+                'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
+                'STAB' => FALSE,
+            ),
         "Return" =>
-        array(
-            'name' => 'Return',
-            'type' => 'normal',
-            'power' => 102,
-            'accuracy' => 100,
-            'description' => 'This attack move grows more powerful the more the user likes its TRAINER.',
-            'STAB' => TRUE,
-        ),
+            array(
+                'name' => 'Return',
+                'type' => 'normal',
+                'power' => 102,
+                'accuracy' => 100,
+                'description' => 'This attack move grows more powerful the more the user likes its TRAINER.',
+                'STAB' => TRUE,
+            ),
     ),
     'HP' => 220,
     'Attack' => 151,
@@ -168,40 +162,40 @@ $nidoking = array(
     'attacks' => array(
         "Surf" =>
             array(
-            'name' => 'Surf',
-            'type' => 'water',
-            'power' => 95,
-            'accuracy' => 100,
-            'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Surf',
+                'type' => 'water',
+                'power' => 95,
+                'accuracy' => 100,
+                'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
+                'STAB' => FALSE,
+            ),
         "Sludge Bomb" =>
             array(
-            'name' => 'Sludge Bomb',
-            'type' => 'poison',
-            'power' => 90,
-            'accuracy' => 100,
-            'description' => 'Filthy sludge is hurled at the foe. It may poison the target.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Sludge Bomb',
+                'type' => 'poison',
+                'power' => 90,
+                'accuracy' => 100,
+                'description' => 'Filthy sludge is hurled at the foe. It may poison the target.',
+                'STAB' => TRUE,
+            ),
         "Megahorn" =>
             array(
-            'name' => 'Megahorn',
-            'type' => 'bug',
-            'power' => 120,
-            'accuracy' => 85,
-            'description' => 'A brutal ramming attack delivered with a tough and impressive horn.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Megahorn',
+                'type' => 'bug',
+                'power' => 120,
+                'accuracy' => 85,
+                'description' => 'A brutal ramming attack delivered with a tough and impressive horn.',
+                'STAB' => FALSE,
+            ),
         "Earthquake" =>
             array(
-            'name' => 'Earthquake',
-            'type' => 'ground',
-            'power' => 100,
-            'accuracy' => 100,
-            'description' => 'An earthquake that strikes all POKéMON in battle excluding the user.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Earthquake',
+                'type' => 'ground',
+                'power' => 100,
+                'accuracy' => 100,
+                'description' => 'An earthquake that strikes all POKéMON in battle excluding the user.',
+                'STAB' => TRUE,
+            ),
     ),
     'HP' => 158,
     'Attack' => 147,
@@ -220,40 +214,40 @@ $omastar = array(
     'attacks' => array(
         "Brick Break" =>
             array(
-            'name' => 'Brick Break',
-            'type' => 'fighting',
-            'power' => 75,
-            'accuracy' => 100,
-            'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Brick Break',
+                'type' => 'fighting',
+                'power' => 75,
+                'accuracy' => 100,
+                'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
+                'STAB' => TRUE,
+            ),
         "Rain Dance" =>
             array(
-            'name' => 'Rain Dance',
-            'type' => 'water',
-            'power' => 0,
-            'accuracy' => 100,
-            'description' => 'A heavy rain falls for five turns, powering up WATER- type moves.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Rain Dance',
+                'type' => 'water',
+                'power' => 0,
+                'accuracy' => 100,
+                'description' => 'A heavy rain falls for five turns, powering up WATER- type moves.',
+                'STAB' => TRUE,
+            ),
         "Toxic" =>
             array(
-            'name' => 'Toxic',
-            'type' => 'poison',
-            'power' => 0,
-            'accuracy' => 90,
-            'description' => 'A move that badly poisons the foe. Its poison damage worsens every turn.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Toxic',
+                'type' => 'poison',
+                'power' => 0,
+                'accuracy' => 90,
+                'description' => 'A move that badly poisons the foe. Its poison damage worsens every turn.',
+                'STAB' => FALSE,
+            ),
         "Ice Beam" =>
             array(
-            'name' => 'Ice Beam',
-            'type' => 'ice',
-            'power' => 90,
-            'accuracy' => 100,
-            'description' => 'The foe is struck with an icy beam. It may freeze the foe solid.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Ice Beam',
+                'type' => 'ice',
+                'power' => 90,
+                'accuracy' => 100,
+                'description' => 'The foe is struck with an icy beam. It may freeze the foe solid.',
+                'STAB' => FALSE,
+            ),
     ),
     'HP' => 154,
     'Attack' => 74,
@@ -272,40 +266,40 @@ $hitmonlee = array(
     'attacks' => array(
         "Surf" =>
             array(
-            'name' => 'Surf',
-            'type' => 'water',
-            'power' => 95,
-            'accuracy' => 100,
-            'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Surf',
+                'type' => 'water',
+                'power' => 95,
+                'accuracy' => 100,
+                'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
+                'STAB' => TRUE,
+            ),
         "Hidden Power" =>
             array(
-            'name' => 'Hidden Power',
-            'type' => 'ice',
-            'power' => 70,
-            'accuracy' => 100,
-            'description' => 'An attack that varies in type and intensity depending on the user.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Hidden Power',
+                'type' => 'ice',
+                'power' => 70,
+                'accuracy' => 100,
+                'description' => 'An attack that varies in type and intensity depending on the user.',
+                'STAB' => FALSE,
+            ),
         "Focus Punch" =>
             array(
-            'name' => 'Focus Punch',
-            'type' => 'fighting',
-            'power' => 150,
-            'accuracy' => 100,
-            'description' => 'An attack that is executed last. The user flinches if hit beforehand.',
-            'STAB' => TRUE,
-        ),
+                'name' => 'Focus Punch',
+                'type' => 'fighting',
+                'power' => 150,
+                'accuracy' => 100,
+                'description' => 'An attack that is executed last. The user flinches if hit beforehand.',
+                'STAB' => TRUE,
+            ),
         "Substitute" =>
             array(
-            'name' => 'Substitute',
-            'type' => 'normal',
-            'power' => 0,
-            'accuracy' => 100,
-            'description' => 'The user creates a decoy using one- quarter of its full HP.',
-            'STAB' => FALSE,
-        ),
+                'name' => 'Substitute',
+                'type' => 'normal',
+                'power' => 0,
+                'accuracy' => 100,
+                'description' => 'The user creates a decoy using one- quarter of its full HP.',
+                'STAB' => FALSE,
+            ),
     ),
     'HP' => 137,
     'Attack' => 188,
@@ -316,7 +310,7 @@ $hitmonlee = array(
 );
 
 
-$pokemon_array = array($mr_mime, $electabuzz, $kangaskhan, $omastar, $nidoking, $hitmonlee);
+$pokemon_array = array('Mr. Mime' => $mr_mime, 'Electabuzz' => $electabuzz, 'Kangaskhan' => $kangaskhan, 'Omastar' => $omastar, 'Nidoking' => $nidoking, 'Hitmonlee' => $hitmonlee);
 var_dump($pokemon_array);
 $pokemon_array = json_encode($pokemon_array);
 
