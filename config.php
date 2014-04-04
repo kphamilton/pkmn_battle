@@ -14,6 +14,7 @@ $mr_mime = array(
                 'accuracy' => 100,
                 'description' => 'A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         'Safeguard' =>
             array(
@@ -23,6 +24,7 @@ $mr_mime = array(
                 'accuracy' => 100,
                 'description' => 'It protects the user’s party from all status problems for five turns.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Thunderbolt" =>
             array(
@@ -32,15 +34,17 @@ $mr_mime = array(
                 'accuracy' => 100,
                 'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Shadow Ball" =>
             array(
                 'name' => 'Shadow Ball',
-                'type' => 'Ghost',
+                'type' => 'ghost',
                 'power' => 80,
                 'accuracy' => 100,
                 'description' => 'A shadowy blob is hurled at the foe. May also lower the foe’s SP. DEF.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
     ),
     'HP' => 138,
@@ -48,7 +52,8 @@ $mr_mime = array(
     'Defense' => 102,
     'Special Attack' => 127,
     'Special Defense' => 149,
-    'Speed' => 166
+    'Speed' => 166,
+    'Number' => 122
 );
 
 $electabuzz = array(
@@ -65,6 +70,7 @@ $electabuzz = array(
                 'accuracy' => 100,
                 'description' => 'A strong telekinetic attack. It may also lower the foe’s SP. DEF stat.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Thunderwave" =>
             array(
@@ -74,6 +80,7 @@ $electabuzz = array(
                 'accuracy' => 100,
                 'description' => 'A weak electric shock that is sure to cause paralysis if it hits.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Thunderbolt" =>
             array(
@@ -83,6 +90,7 @@ $electabuzz = array(
                 'accuracy' => 100,
                 'description' => 'A strong electrical attack that may also leave the foe paralyzed.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Hidden Power" =>
             array(
@@ -92,6 +100,7 @@ $electabuzz = array(
                 'accuracy' => 100,
                 'description' => 'An attack that varies in type and intensity depending on the user.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
     ),
     'HP' => 140,
@@ -99,7 +108,8 @@ $electabuzz = array(
     'Defense' => 94,
     'Special Attack' => 158,
     'Special Defense' => 103,
-    'Speed' => 135
+    'Speed' => 135,
+    'Number' => 125
 );
 
 $kangaskhan = array(
@@ -116,6 +126,7 @@ $kangaskhan = array(
                 'accuracy' => 90,
                 'description' => 'A severely damaging attack that makes the user rest on the next turn.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Body Slam" =>
             array(
@@ -125,6 +136,7 @@ $kangaskhan = array(
                 'accuracy' => 100,
                 'description' => 'The user drops its full body on the foe. It may leave the foe paralyzed.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Brick Break" =>
             array(
@@ -134,6 +146,7 @@ $kangaskhan = array(
                 'accuracy' => 100,
                 'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Return" =>
             array(
@@ -143,6 +156,7 @@ $kangaskhan = array(
                 'accuracy' => 100,
                 'description' => 'This attack move grows more powerful the more the user likes its TRAINER.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
     ),
     'HP' => 220,
@@ -150,7 +164,8 @@ $kangaskhan = array(
     'Defense' => 99,
     'Special Attack' => 63,
     'Special Defense' => 102,
-    'Speed' => 121
+    'Speed' => 121,
+    'Number' => 115
 );
 
 $nidoking = array(
@@ -168,6 +183,7 @@ $nidoking = array(
                 'accuracy' => 100,
                 'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Sludge Bomb" =>
             array(
@@ -177,6 +193,7 @@ $nidoking = array(
                 'accuracy' => 100,
                 'description' => 'Filthy sludge is hurled at the foe. It may poison the target.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Megahorn" =>
             array(
@@ -186,6 +203,7 @@ $nidoking = array(
                 'accuracy' => 85,
                 'description' => 'A brutal ramming attack delivered with a tough and impressive horn.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Earthquake" =>
             array(
@@ -195,6 +213,7 @@ $nidoking = array(
                 'accuracy' => 100,
                 'description' => 'An earthquake that strikes all POKéMON in battle excluding the user.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
     ),
     'HP' => 158,
@@ -202,7 +221,8 @@ $nidoking = array(
     'Defense' => 99,
     'Special Attack' => 101,
     'Special Defense' => 103,
-    'Speed' => 129
+    'Speed' => 129,
+    'Number' => 034
 );
 
 $omastar = array(
@@ -220,6 +240,7 @@ $omastar = array(
                 'accuracy' => 100,
                 'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Rain Dance" =>
             array(
@@ -229,6 +250,7 @@ $omastar = array(
                 'accuracy' => 100,
                 'description' => 'A heavy rain falls for five turns, powering up WATER- type moves.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Toxic" =>
             array(
@@ -238,6 +260,7 @@ $omastar = array(
                 'accuracy' => 90,
                 'description' => 'A move that badly poisons the foe. Its poison damage worsens every turn.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Ice Beam" =>
             array(
@@ -247,6 +270,7 @@ $omastar = array(
                 'accuracy' => 100,
                 'description' => 'The foe is struck with an icy beam. It may freeze the foe solid.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
     ),
     'HP' => 154,
@@ -254,7 +278,8 @@ $omastar = array(
     'Defense' => 170,
     'Special Attack' => 178,
     'Special Defense' => 73,
-    'Speed' => 106
+    'Speed' => 106,
+    'Number' => 139
 );
 
 
@@ -272,6 +297,7 @@ $hitmonlee = array(
                 'accuracy' => 100,
                 'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Hidden Power" =>
             array(
@@ -281,6 +307,7 @@ $hitmonlee = array(
                 'accuracy' => 100,
                 'description' => 'An attack that varies in type and intensity depending on the user.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
         "Focus Punch" =>
             array(
@@ -290,6 +317,7 @@ $hitmonlee = array(
                 'accuracy' => 100,
                 'description' => 'An attack that is executed last. The user flinches if hit beforehand.',
                 'STAB' => TRUE,
+                'damage' => 0
             ),
         "Substitute" =>
             array(
@@ -299,6 +327,7 @@ $hitmonlee = array(
                 'accuracy' => 100,
                 'description' => 'The user creates a decoy using one- quarter of its full HP.',
                 'STAB' => FALSE,
+                'damage' => 0
             ),
     ),
     'HP' => 137,
@@ -306,7 +335,8 @@ $hitmonlee = array(
     'Defense' => 75,
     'Special Attack' => 51,
     'Special Defense' => 136,
-    'Speed' => 151
+    'Speed' => 151,
+    'Number' => 106
 );
 
 
