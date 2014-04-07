@@ -1,0 +1,87 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+.label-poison {
+    background-color:#A040A0;
+    color:#fff;
+}
+.label-rock {
+    background-color:#B8A038;
+    color:#fff;
+}
+.label-ground {
+    background-color:#E0C068;
+    color:#fff;
+}
+.label-normal {
+    background-color:#A8A878;
+    color:#fff;
+}
+.label-psychic {
+    background-color:#F85888;
+    color:#fff;
+}
+
+.label-ice {
+    background-color:#98D8D8;
+    color:#fff;
+}
+
+.label-fire {
+    background-color:#F08030;
+    color:#fff;
+}
+
+.label-fighting {
+    background-color:#C03028;
+    color:#fff;
+}
+
+.label-water {
+    background-color:#6890F0;
+    color:#fff;
+}
+
+.label-flying {
+    background-color:#A890F0;
+    color:#fff;
+}
+
+.label-grass {
+    background-color:#78C850;
+    color:#fff;
+}
+
+.label-electric {
+    background-color:#F8D030;
+    color:#fff;
+}
+
+.label-bug {
+    background-color:#A8B820;
+    color:#fff;
+}
+
+.label-dragon {
+    background-color:#7038F8;
+    color:#fff;
+}
+
+.label-ghost {
+    background-color:#705898;
+    color:#fff;
+}
+
+.label-dark {
+    background-color:#705848;
+    color:#fff;
+}
+
+.label-steel {
+    background-color:#B8B8D0;
+    color:#fff;
+}

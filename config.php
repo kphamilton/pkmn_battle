@@ -232,16 +232,16 @@ $omastar = array(
         'rock'
     ),
     'attacks' => array(
-        "Brick Break" =>
-            array(
-                'name' => 'Brick Break',
-                'type' => 'fighting',
-                'power' => 75,
-                'accuracy' => 100,
-                'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
-                'STAB' => TRUE,
-                'damage' => 0
-            ),
+        "Surf" =>
+        array(
+            'name' => 'Surf',
+            'type' => 'water',
+            'power' => 95,
+            'accuracy' => 100,
+            'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
+            'STAB' => TRUE,
+            'damage' => 0
+        ),
         "Rain Dance" =>
             array(
                 'name' => 'Rain Dance',
@@ -289,16 +289,16 @@ $hitmonlee = array(
         'fighting'
     ),
     'attacks' => array(
-        "Surf" =>
-            array(
-                'name' => 'Surf',
-                'type' => 'water',
-                'power' => 95,
-                'accuracy' => 100,
-                'description' => 'A big wave crashes down on the foe. Can also be used for crossing water.',
-                'STAB' => TRUE,
-                'damage' => 0
-            ),
+        "Brick Break" =>
+        array(
+            'name' => 'Brick Break',
+            'type' => 'fighting',
+            'power' => 75,
+            'accuracy' => 100,
+            'description' => 'An attack that also breaks any barrier like LIGHT SCREEN and REFLECT.',
+            'STAB' => TRUE,
+            'damage' => 0
+        ),
         "Hidden Power" =>
             array(
                 'name' => 'Hidden Power',
@@ -413,6 +413,288 @@ $attack_stat_lookup = array(
 
 var_dump($attack_stat_lookup);
 echo json_encode($attack_stat_lookup);
+
+$new_stats = array(
+  'Arbok' => array(
+      'HP' => (148+182)/2,
+      'Attack' => (103+115+150+165)/4,
+      'Defense' => (87+97+132+145)/4,
+      'Special Attack' => (83+93+128+140)/4,
+      'Special Defense' => (97+108+143+157)/4,
+      'Speed' => (99+110+144+158)/4
+      ),
+    'Blastoise' => array(
+        'HP' => (168+203)/2,
+        'Attack' => (101+113+148+162)/4,
+        'Defense' => (118+132+166+182)/4,
+        'Special Attack' => (103+115+150+165)/4,
+        'Special Defense' => (123+137+172+189)/4,
+        'Speed' => (96+107+142+156)/4
+    ),
+    'Clefable' => array(
+        'HP' => (186+221)/2,
+        'Attack' => (89+99+133+146)/4,
+        'Defense' => (91+102+137+150)/4,
+        'Special Attack' => (103+115+150+165)/4,
+        'Special Defense' => (108+121+155+170)/4,
+        'Speed' => (79+88+122+134)/4
+    ),
+    'Electabuzz' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (101+113+148+162)/4,
+        'Defense' => (75+84+119+130)/4,
+        'Special Attack' => (113+126+161+177)/4,
+        'Special Defense' => (103+115+150+165)/4,
+        'Speed' => (123+137+172+189)/4
+    ),
+    'Electrode' => array(
+        'HP' => (148+182)/2,
+        'Attack' => (69+77+111+122)/4,
+        'Defense' => (89+99+133+146)/4,
+        'Special Attack' => (99+110+144+158)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (158+176+210+231)/4
+    ),
+    'Fearow' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (108+121+155+170)/4,
+        'Defense' => (83+93+128+140)/4,
+        'Special Attack' => (80+89+123+135)/4,
+        'Special Defense' => (80+89+123+135)/4,
+        'Speed' => (118+132+166+182)/4
+    ),
+    'Flareon' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (148+165+199+218)/4,
+        'Defense' => (79+88+122+134)/4,
+        'Special Attack' => (113+126+161+177)/4,
+        'Special Defense' => (128+143+177+194)/4,
+        'Speed' => (83+93+128+140)/4
+    ),
+    'Golduck' => array(
+        'HP' => (170+204)/2,
+        'Attack' => (100+112+146+160)/4,
+        'Defense' => (96+107+142+156)/4,
+        'Special Attack' => (113+126+161+177)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (103+115+150+165)/4
+    ),
+    'Golem' => array(
+        'HP' => (170+204)/2,
+        'Attack' => (128+143+177+194)/4,
+        'Defense' => (148+165+199+218)/4,
+        'Special Attack' => (73+82+117+128)/4,
+        'Special Defense' => (83+93+128+140)/4,
+        'Speed' => (63+71+106+116)/4
+    ),
+    'Hitmonchan' => array(
+        'HP' => (137+171)/2,
+        'Attack' => (123+137+172+189)/4,
+        'Defense' => (97+108+143+157)/4,
+        'Special Attack' => (54+60+95+104)/4,
+        'Special Defense' => (128+143+177+194)/4,
+        'Speed' => (94+105+140+154)/4
+    ),
+    'Hitmonlee' => array(
+        'HP' => (137+171)/2,
+        'Attack' => (138+154+188+206)/4,
+        'Defense' => (72+80+115+126)/4,
+        'Special Attack' => (54+60+95+104)/4,
+        'Special Defense' => (128+143+177+194)/4,
+        'Speed' => (105+117+152+167)/4
+    ),
+    'Hypno' => array(
+        'HP' => (175+210)/2,
+        'Attack' => (91+102+137+150)/4,
+        'Defense' => (89+99+133+146)/4,
+        'Special Attack' => (91+102+137+150)/4,
+        'Special Defense' => (133+148+183+201)/4,
+        'Speed' => (85+95+130+143)/4
+    ),
+    'Kabutops' => array(
+        'HP' => (148+182)/2,
+        'Attack' => (133+148+183+201)/4,
+        'Defense' => (123+137+172+189)/4,
+        'Special Attack' => (83+93+128+140)/4,
+        'Special Defense' => (89+99+133+146)/4,
+        'Speed' => (99+110+144+158)/4
+    ),
+    'Kangaskhan' => array(
+        'HP' => (197+232)/2,
+        'Attack' => (113+126+161+177)/4,
+        'Defense' => (99+110+144+158)/4,
+        'Special Attack' => (59+66+100+110)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (108+121+155+170)/4
+    ),
+    'Kingler' => array(
+        'HP' => (142+177)/2,
+        'Attack' => (148+165+199+218)/4,
+        'Defense' => (133+148+183+201)/4,
+        'Special Attack' => (69+77+111+122)/4,
+        'Special Defense' => (69+77+111+122)/4,
+        'Speed' => (93+104+139+152)/4
+    ),
+    'Magmar' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (113+126+161+177)/4,
+        'Defense' => (75+84+119+130)/4,
+        'Special Attack' => (118+132+166+182)/4,
+        'Special Defense' => (103+115+150+165)/4,
+        'Speed' => (111+124+159+174)/4
+    ),
+    'Mr. Mime' => array(
+        'HP' => (126+160)/2,
+        'Attack' => (63+71+106+116)/4,
+        'Defense' => (83+93+128+140)/4,
+        'Special Attack' => (118+132+166+182)/4,
+        'Special Defense' => (138+154+188+206)/4,
+        'Speed' => (108+121+155+170)/4
+    ),
+    'Muk' => array(
+        'HP' => (197+232)/2,
+        'Attack' => (123+137+172+189)/4,
+        'Defense' => (93+104+139+152)/4,
+        'Special Attack' => (83+93+128+140)/4,
+        'Special Defense' => (118+132+166+182)/4,
+        'Speed' => (69+77+111+122)/4
+    ),
+    'Nidoking' => array(
+        'HP' => (171+205)/2,
+        'Attack' => (110+123+157+172)/4,
+        'Defense' => (95+106+141+155)/4,
+        'Special Attack' => (103+115+150+165)/4,
+        'Special Defense' => (93+104+139+152)/4,
+        'Speed' => (103+115+150+165)/4
+    ),
+    'Nidoqueen' => array(
+        'HP' => (181+215)/2,
+        'Attack' => (100+112+146+160)/4,
+        'Defense' => (105+117+152+167)/4,
+        'Special Attack' => (93+104+139+152)/4,
+        'Special Defense' => (103+115+150+165)/4,
+        'Speed' => (94+105+140+154)/4
+    ),
+    'Ninetales' => array(
+        'HP' => (162+197)/2,
+        'Attack' => (94+105+140+154)/4,
+        'Defense' => (93+104+139+152)/4,
+        'Special Attack' => (99+111+145+159)/4,
+        'Special Defense' => (118+132+166+182)/4,
+        'Speed' => (118+132+166+182)/4
+    ),
+    'Omastar' => array(
+        'HP' => (159+193)/2,
+        'Attack' => (79+88+122+134)/4,
+        'Defense' => (143+159+194+213)/4,
+        'Special Attack' => (133+148+183+201)/4,
+        'Special Defense' => (89+99+133+146)/4,
+        'Speed' => (73+82+117+128)/4
+    ),
+    'Persian' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (89+99+133+146)/4,
+        'Defense' => (79+88+122+134)/4,
+        'Special Attack' => (83+93+128+140)/4,
+        'Special Defense' => (83+93+128+140)/4,
+        'Speed' => (133+148+183+201)/4
+    ),
+    'Pinsir' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (143+159+194+213)/4,
+        'Defense' => (118+132+166+182)/4,
+        'Special Attack' => (73+82+117+128)/4,
+        'Special Defense' => (89+99+133+146)/4,
+        'Speed' => (103+115+150+165)/4
+    ),
+    'Poliwrath' => array(
+        'HP' => (181+215)/2,
+        'Attack' => (103+115+150+165)/4,
+        'Defense' => (113+126+161+177)/4,
+        'Special Attack' => (89+99+133+146)/4,
+        'Special Defense' => (108+121+155+170)/4,
+        'Speed' => (89+99+133+146)/4
+    ),
+    'Primeape' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (123+137+172+189)/4,
+        'Defense' => (79+88+122+134)/4,
+        'Special Attack' => (79+88+122+134)/4,
+        'Special Defense' => (89+99+133+146)/4,
+        'Speed' => (113+126+161+177)/4
+    ),
+    'Raichu' => array(
+        'HP' => (148+182)/2,
+        'Attack' => (108+121+155+170)/4,
+        'Defense' => (73+82+117+128)/4,
+        'Special Attack' => (108+121+155+170)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (118+132+166+182)/4
+    ),
+    'Rapidash' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (118+132+166+182)/4,
+        'Defense' => (89+99+133+146)/4,
+        'Special Attack' => (99+110+144+158)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (123+137+172+189)/4
+    ),
+    'Sandslash' => array(
+        'HP' => (164+199)/2,
+        'Attack' => (118+132+166+182)/4,
+        'Defense' => (128+143+177+194)/4,
+        'Special Attack' => (63+71+106+116)/4,
+        'Special Defense' => (73+82+117+128)/4,
+        'Speed' => (83+93+128+140)/4
+    ),
+    'Scyther' => array(
+        'HP' => (159+193)/2,
+        'Attack' => (128+143+177+194)/4,
+        'Defense' => (99+110+144+158)/4,
+        'Special Attack' => (73+82+117+128)/4,
+        'Special Defense' => (99+110+144+158)/4,
+        'Speed' => (123+137+172+189)/4
+    ),
+    'Tangela' => array(
+        'HP' => (153+188)/2,
+        'Attack' => (73+82+117+128)/4,
+        'Defense' => (133+148+183+201)/4,
+        'Special Attack' => (118+132+166+182)/4,
+        'Special Defense' => (59+66+100+110)/4,
+        'Speed' => (79+88+122+134)/4
+    ),
+    'Tentacruel' => array(
+        'HP' => (170+204)/2,
+        'Attack' => (89+99+133+146)/4,
+        'Defense' => (83+93+128+140)/4,
+        'Special Attack' => (99+110+144+158)/4,
+        'Special Defense' => (138+154+188+206)/4,
+        'Speed' => (118+132+166+182)/4
+    ),
+    'Victreebel' => array(
+        'HP' => (170+204)/2,
+        'Attack' => (123+137+172+189)/4,
+        'Defense' => (83+93+128+140)/4,
+        'Special Attack' => (118+132+166+182)/4,
+        'Special Defense' => (79+88+122+134)/4,
+        'Speed' => (89+99+133+146)/4
+    ),
+    'Vileplume' => array(
+        'HP' => (164+199)/2,
+        'Attack' => (99+110+144+158)/4,
+        'Defense' => (103+115+150+165)/4,
+        'Special Attack' => (118+132+166+182)/4,
+        'Special Defense' => (108+121+155+170)/4,
+        'Speed' => (69+77+111+122)/4
+    ),
+
+
+);
+var_dump($new_stats);
+echo json_encode($new_stats);
+
+
+
 
 ?>
 
